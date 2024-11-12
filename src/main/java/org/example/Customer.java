@@ -109,6 +109,7 @@ public class Customer implements CustomerOperation {
         return accounts;
     }
 
+
     public void setAccounts(List<Account> accounts) {
         this.accounts = accounts;
     }

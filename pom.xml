@@ -20,6 +20,14 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.33</version>
         </dependency>
+<!--Add this dependency in POM.xml-->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.9.1</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
+<!--    You will have the test folder in the project.-->
 
 </project>
